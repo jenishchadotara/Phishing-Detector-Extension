@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "AI Phishing & Security Shield Pro",
+  "version": "2.0",
+  "description": "Real-time AI automated background phishing detector with alerts.",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "notifications"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
